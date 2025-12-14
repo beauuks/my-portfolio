@@ -138,7 +138,7 @@ params:
     title: "Kanthad (Beau)."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: static/images/hero.svg
+    image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -155,14 +155,14 @@ params:
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
-        - icon: static/fav.png
+        - icon: /fav.png
           url: "https://example.com"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "static/images/me.png"
+    image: "/images/me.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -309,14 +309,14 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-        image: static/images/achievement.jpg
+        image: /images/achievement.jpg
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
-        image: static/images/achievement.jpg
+        image: /images/achievement.jpg
       - title: Hugo Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
-        image: static/images/achievement.jpg
+        image: /images/achievement.jpg
       - title: Microsoft Imagine Runner
         content: We are developed a product which can help others.
       - title: Google Summer of Code
@@ -330,7 +330,7 @@ params:
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: static/images/projects/profile.png
+        image: /images/projects/profile.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -348,7 +348,7 @@ params:
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: static/images/projects/converter.jpg
+        image: /images/projects/converter.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
@@ -361,7 +361,7 @@ params:
 
       - title: Hugo Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
-        image: static/images/projects/profile2.jpg
+        image: /images/projects/profile2.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
@@ -395,11 +395,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/beauuks
+      linkedin: www.linkedin.com/in/kanthad-sangudomlert
 
   # List pages like blogs and posts
   listPages:
@@ -431,6 +428,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
