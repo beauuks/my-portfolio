@@ -396,7 +396,7 @@ params:
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/beauuks
-      linkedin: www.linkedin.com/in/kanthad-sangudomlert
+      linkedin: https://www.linkedin.com/in/kanthad-sangudomlert/
 
   # List pages like blogs and posts
   listPages:
