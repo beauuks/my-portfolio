@@ -1,7 +1,7 @@
 baseURL: "https://beauuks.github.io/my-portfolio/"
 languageCode: "en-us"
 title: "Hugo Profile"
-theme: hugo-profile
+#theme: hugo-profile
 
 outputs:
   home:
@@ -430,4 +430,5 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
