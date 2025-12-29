@@ -161,20 +161,23 @@ params:
     title: "About Me"
     image: "images/me.png"
     content: |-
-        I am a third-year Data Science and Engineer student at IE University, currently based in Madrid, Spain. I have a strong academic background in data science, machine learning, and algorithmic problem solving, with hands-on experience in predictive modeling, ETL pipelines, and parallel computing.
-    
-        I am eager to apply my technical skills in real-world data science and data engineering projects, particularly in areas related to sustainability, energy, and large-scale data systems.
+      I am a third-year Data Science and Engineer student at IE University, currently based in Madrid, Spain. I have a strong academic background in data science, machine learning, and algorithmic problem solving, with hands-on experience in predictive modeling, ETL pipelines, and parallel computing.
+  
+      I am eager to apply my technical skills in real-world data science and data engineering projects, particularly in areas related to sustainability, energy, and large-scale data systems.
     skills:
       enable: true
-      title: "Technologies & Tools:"
+      title: "Technical Skills:"
       items:
         - "Python"
-        - "R"
         - "Bash"
         - "SQL"
         - "Java"
         - "MongoDB"
         - "Git"
+        - "Apache Spark"
+        - "Machine Learning & Deep Learning"
+        - "Data Modeling"
+        - "OOP"
 
   # Experience
   experience:
@@ -347,6 +350,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
