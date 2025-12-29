@@ -31,16 +31,46 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+    - identifier: about
+      name: About
+      title: About Me
+      url: "/#about"
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
+
+    - identifier: experience
+      name: Experience
+      title: Experience
+      url: "/#experience"
       weight: 2
+
+    - identifier: education
+      name: Education
+      title: Education
+      url: "/#education"
+      weight: 3
+
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: "/#projects"
+      weight: 4
+
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: "/#contact"
+      weight: 5
+
+    #- identifier: blog
+    #  name: Blog
+    #  title: Blog posts
+    #  url: /blogs
+    #  weight: 1
+    #- identifier: gallery
+    #  name: Gallery
+    #  title: Blog posts
+    #  url: /gallery
+    #  weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -138,7 +168,7 @@ params:
     title: "Kanthad (Beau)."
     subtitle: "I build engines"
     content: "data student experienced in predictive modeling, parallel computing, and big data technologies."
-    image: images/hero.svg
+    image: images/hero.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -184,31 +214,22 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "IE Sustainability Datathon – Repsol Challenge"
+      - company: "IE Sustainability Datathon (Repsol Challenge)"
         companyUrl: "https://www.ie.edu"
         jobs:
           - name: "Data Science Team Member"
-            date: "March 2025 – April 2025"
+            date: "March 2025 - April 2025"
             content: |-
-              - Developed a machine learning–based solar energy generation prediction model evaluated using MAE.
+              - Developed a machine learning-based solar energy generation prediction model evaluated using MAE.
               - Simulated battery storage strategies to optimize energy use.
               - Quantified avoided carbon emissions (CO2e) using data-driven modeling.
               - Delivered a technical presentation to Repsol and academic panels.
   
-      - company: "NBA Simulation Project (Parallel Programming)"
-        jobs:
-          - name: "Data & Simulation Developer"
-            date: "January 2025 – May 2025"
-            content: |-
-              - Built a full NBA season simulation using parallel programming principles in Python.
-              - Implemented multithreading and multiprocessing to simulate games concurrently.
-              - Achieved significant reductions in execution time through efficient resource utilization.
-  
       - company: "Advance Energy Plus Co., LTD"
-        companyUrl: "https://example.com"
+        companyUrl: "https://www.aep.co.th/en/"
         jobs:
           - name: "Data Shadowing & Internship"
-            date: "June 2023 – July 2023"
+            date: "June 2023 - July 2023"
             content: |-
               - Conducted data collection, preprocessing, and trend analysis on energy datasets.
               - Collaborated with large organizations including Krungsri Bank to support sustainable energy initiatives.
@@ -216,10 +237,9 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelor’s in Data and Business Analytics"
+      - title: "Bachelor's in Data and Business Analytics"
         school:
           name: "IE University"
           url: "https://www.ie.edu"
@@ -240,10 +260,10 @@ params:
         school:
           name: "Triamudom Suksa School"
           url: "https://www.triamudom.ac.th"
-        date: "Graduated 2023"
+        date: "May 2020 - December 2021"
         content: |-
           - Ranked **2nd place** in the competitive admission placement test.
-          - Attended one of Thailand’s most selective public high schools with a strong academic focus on mathematics, science, and languages.
+          - Attended one of Thailand's most selective public high schools with a strong academic focus on mathematics, science, and languages.
 
   # Achievements
   #achievements:
@@ -267,23 +287,9 @@ params:
   #      content: Contributed to a open source project.
   #      url: https://example.com
 
-  achievements:
-    enable: true
-    items:
-      - title: "Technical Skills"
-        content: |
-          Languages & Tools: Python (daily), Java, R, SQL, Bash, Git, HTML/CSS (basic)
-          
-          Big Data & Systems: MySQL, MongoDB, Cassandra, Redis, Neo4j, Apache Spark, ETL, Microsoft Azure
-          
-          Concepts: Machine Learning, Deep Learning, Data Modeling, OOP, Parallel Programming
-          
-          Visualization: Tableau, ggplot2, Matplotlib, Seaborn
-
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
       - title: "Fitness & Nutrition Data Pipeline"
         content: "Designed and implemented a full ETL pipeline to clean and transform health and nutrition data from multiple sources into a unified MySQL/Snowflake-style schema."
@@ -293,6 +299,16 @@ params:
           - "SQL"
           - "ETL"
           - "Data Modeling"
+
+      - title: "NBA Simulation"
+        content: "Built a full NBA season simulation using parallel programming (multithrading and multiprocessing) principles in Python 
+                  and achieved significant reductions in execution time through efficient resource utilization."
+        image: images/projects/nba.png
+        badges:
+          - "Python"
+          - "Parallel Computing"
+          - "Threads and Processes"
+          - "SQLite"
   
       - title: "Solar Energy Generation Prediction"
         content: "Machine learning model to predict solar energy output and evaluate battery storage strategies to reduce carbon emissions."
