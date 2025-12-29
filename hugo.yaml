@@ -63,7 +63,7 @@ params:
   title: "beauuks"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  #favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -136,8 +136,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Kanthad (Beau)."
-    subtitle: "I build engines, not just dashboards."
-    content: "Passionate about distributed systems, data pipelines, and low-level networking."
+    subtitle: "I build engines"
+    content: "data student experienced in predictive modeling, parallel computing, and big data technologies."
     image: images/hero.svg
     bottomImage:
       enable: true
@@ -150,12 +150,10 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/kanthad-sangudomlert
         - icon: fab fa-github
-          url: https://github.com/beauuks 
-
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/beauuks
 
   # About
   about:
@@ -163,222 +161,153 @@ params:
     title: "About Me"
     image: "images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a third-year Data Science and Engineer student at IE University, currently based in Madrid, Spain. I have a strong academic background in data science, machine learning, and algorithmic problem solving, with hands-on experience in predictive modeling, ETL pipelines, and parallel computing.
+  
+      I am eager to apply my technical skills in real-world data science and data engineering projects, particularly in areas related to sustainability, energy, and large-scale data systems.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Technical Skills:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python"
+        - "Bash"
+        - "SQL"
+        - "Java"
+        - "MongoDB"
+        - "Git"
+        - "Apache Spark"
+        - "Machine Learning & Deep Learning"
+        - "Data Modeling"
+        - "OOP"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
+      - company: "IE Sustainability Datathon – Repsol Challenge"
+        companyUrl: "https://www.ie.edu"
+        jobs:
+          - name: "Data Science Team Member"
+            date: "March 2025 – April 2025"
+            content: |-
+              - Developed a machine learning–based solar energy generation prediction model evaluated using MAE.
+              - Simulated battery storage strategies to optimize energy use.
+              - Quantified avoided carbon emissions (CO2e) using data-driven modeling.
+              - Delivered a technical presentation to Repsol and academic panels.
+  
+      - company: "NBA Simulation Project (Parallel Programming)"
+        jobs:
+          - name: "Data & Simulation Developer"
+            date: "January 2025 – May 2025"
+            content: |-
+              - Built a full NBA season simulation using parallel programming principles in Python.
+              - Implemented multithreading and multiprocessing to simulate games concurrently.
+              - Achieved significant reductions in execution time through efficient resource utilization.
+  
+      - company: "Advance Energy Plus Co., LTD"
         companyUrl: "https://example.com"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
-
-      - company: "Amazon"
-        companyUrl: "https://example.com"
-        jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
-            content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+          - name: "Data Shadowing & Internship"
+            date: "June 2023 – July 2023"
+            content: |-
+              - Conducted data collection, preprocessing, and trend analysis on energy datasets.
+              - Collaborated with large organizations including Krungsri Bank to support sustainable energy initiatives.
+              - Applied data-driven insights to real-world energy and finance use cases.
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor’s in Data and Business Analytics"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "IE University"
+          url: "https://www.ie.edu"
+        date: "September 2023 - Present"
+        GPA: "8.44 / 10.00"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Honors:
+            - Advanced Data Structures and Storage
+            - Climate Technology
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "High School Diploma"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "American Heritage Academy"
+        date: "Graduated 2023"
+        GPA: "3.93 / 4.00"
+
+      - title: "High School (English & Mathematics Program)"
+        school:
+          name: "Triamudom Suksa School"
+          url: "https://www.triamudom.ac.th"
+        date: "Graduated 2023"
+        content: |-
+          - Ranked **2nd place** in the competitive admission placement test.
+          - Attended one of Thailand’s most selective public high schools with a strong academic focus on mathematics, science, and languages.
 
   # Achievements
+  #achievements:
+  #  enable: true
+    # title: "Custom Name"
+  #  items:
+  #    - title: Google kickstart runner
+  #      content: I solved all problems with optimal solution.
+  #      url: https://example.com
+  #      image: images/achievement.jpg
+  #    - title: Facebook Hackathon Winner
+  #      content: Developed a product using Artificial Intelligence.
+  #      image: images/achievement.jpg
+  #    - title: Hugo Profile
+  #      content: Developed a theme and getting 1K+ downloads per month.
+  #      url: "https://github.com/gurusabarish/hugo-profile"
+  #      image: images/achievement.jpg
+  #    - title: Microsoft Imagine Runner
+  #      content: We are developed a product which can help others.
+  #    - title: Google Summer of Code
+  #      content: Contributed to a open source project.
+  #      url: https://example.com
+
   achievements:
     enable: true
-    # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: "Technical Skills"
+        content: |
+          Languages & Tools: Python (daily), Java, R, SQL, Bash, Git, HTML/CSS (basic)
+          
+          Big Data & Systems: MySQL, MongoDB, Cassandra, Redis, Neo4j, Apache Spark, ETL, Microsoft Azure
+          
+          Concepts: Machine Learning, Deep Learning, Data Modeling, OOP, Parallel Programming
+          
+          Visualization: Tableau, ggplot2, Matplotlib, Seaborn
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: "Fitness & Nutrition Data Pipeline"
+        content: "Designed and implemented a full ETL pipeline to clean and transform health and nutrition data from multiple sources into a unified MySQL/Snowflake-style schema."
         image: images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+          - "Python"
+          - "SQL"
+          - "ETL"
+          - "Data Modeling"
+  
+      - title: "Solar Energy Generation Prediction"
+        content: "Machine learning model to predict solar energy output and evaluate battery storage strategies to reduce carbon emissions."
         image: images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Machine Learning"
+          - "Python"
+          - "Sustainability"
 
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: "Currently based in Madrid, Spain. Eligible to sign internship agreements via IE University. Open to data science and data engineering internship opportunities."
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ksangudomler.ieu2023@student.ie.edu
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -387,12 +316,6 @@ params:
     #   messageRows: 5
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/beauuks
       linkedin: https://www.linkedin.com/in/kanthad-sangudomlert/
@@ -427,6 +350,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
