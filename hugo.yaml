@@ -318,7 +318,7 @@ params:
 
       - title: "Automated Waste Classification System"
         content: "Built a deep learning-based waste classification system using a custom CNN and MobileNetV2. Combined binary and multiclass image classification models into an integrated pipeline to improve accuracy and support automated waste sorting."
-        image: images/projects/converter.png
+        image: images/projects/trash.png
         badges:
           - "Python"
           - "Deep Learning"
