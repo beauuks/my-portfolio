@@ -136,8 +136,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Kanthad (Beau)."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    subtitle: "I build engines, not just dashboards."
+    content: "Passionate about distributed systems, data pipelines, and low-level networking."
     image: images/hero.svg
     bottomImage:
       enable: true
@@ -151,9 +151,8 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/beauuks 
+
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
