@@ -299,6 +299,9 @@ params:
           - "SQL"
           - "ETL"
           - "Data Modeling"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/fitness-nutrition-data-pipeline
 
       - title: "NBA Simulation"
         content: "Built a full NBA season simulation using parallel programming (multithrading and multiprocessing) principles in Python 
@@ -309,10 +312,25 @@ params:
           - "Parallel Computing"
           - "Threads and Processes"
           - "SQLite"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/nba-simulation-project
+
+      - title: "Automated Waste Classification System"
+        content: "Built a deep learning-based waste classification system using a custom CNN and MobileNetV2. Combined binary and multiclass image classification models into an integrated pipeline to improve accuracy and support automated waste sorting."
+        image: images/projects/converter.png
+        badges:
+          - "Python"
+          - "Deep Learning"
+          - "CNN"
+          - "Sustainability"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/waste-classification
   
       - title: "Solar Energy Generation Prediction"
         content: "Machine learning model to predict solar energy output and evaluate battery storage strategies to reduce carbon emissions."
-        image: images/projects/converter.jpg
+        image: images/projects/converter.png
         badges:
           - "Machine Learning"
           - "Python"
