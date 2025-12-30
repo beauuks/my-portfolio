@@ -121,6 +121,15 @@
                     </li>
                     {{ end }}
                     <!--
+                    {{ if and (.Site.Params.miniProjects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
+                    <li class="nav-item navbar-text">
+                    <a class="nav-link" href="#mini-projects" aria-label="mini-projects">
+                        {{ .Site.Params.miniProjects.title | default "Mini Projects" }}
+                    </a>
+                    </li>
+                    {{ end }}
+                    -->
+                    <!--
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="#achievements" aria-label="achievements">

@@ -306,6 +306,24 @@ params:
           - "Python"
           - "Sustainability"
 
+  miniProjects:
+    enable: true
+    title: "Mini Projects"
+    items:
+      - title: "Distributed Load Balancer"
+        content: "Engineered a multithreaded Layer 7 Load Balancer from scratch using raw Java Sockets. 
+                  Implemented a Round-Robin algorithm while ensure fault tolerance. 
+                  Optimized for high concurrency using a custom Fixed Thread Pool and added Docker Compose."
+        image: images/projects/loadbalancer.png
+        badges:
+          - "Java"
+          - "Python"
+          - "Docker"
+          - "Distributed Systems"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/j-balancer 
+
   #Contact
   contact:
     enable: true
