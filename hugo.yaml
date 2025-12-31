@@ -324,6 +324,16 @@ params:
           - icon: fab fa-github
             url: https://github.com/beauuks/j-balancer 
 
+      - title: "Rate Limiter"
+        content: "Built a scalable traffic regulation system using Java and Redis. Implemented the token bucket algorithm via custom Lua scripts to ensure atomic operations and prevent race conditions."
+        image: images/projects/ratelimiter.png
+        badges:
+          - "Redis"
+          - "API Security"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/rate-limiter
+
   #Contact
   contact:
     enable: true
