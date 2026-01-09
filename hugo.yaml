@@ -334,6 +334,18 @@ params:
           - icon: fab fa-github
             url: https://github.com/beauuks/rate-limiter
 
+      - title: "ISO8583 Real-Time Fraud Detector"
+        content: "Built a fraud detection system that processes live ISO8583 financial messages. Designed a streaming pipeline using Java and Apache Kafka to detect credit card anomalies in real-time based on merchant-specific logic."
+        image: images/projects/fraud.png
+        badges:
+          - "Kafka Streams"
+          - "Java"
+          - "Docker"
+          - "ISO8583"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/beauuks/ISO8583-fraud-detection 
+
   #Contact
   contact:
     enable: true
